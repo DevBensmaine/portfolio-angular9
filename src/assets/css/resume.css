@@ -1,0 +1,469 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #6db5ae;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #6db5ae;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    max-height: 40rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #6db5ae !important;
+}
+
+.text-primary {
+  color: #6db5ae !important;
+}
+
+a {
+  color: #6db5ae;
+}
+
+a:hover, a:focus, a:active {
+  color: #35867f;
+}
+
+.fa-caret-right:before{
+  margin: 0 4px;
+}
+
+.fa-caret-right{
+  color: #6db5ae;
+  font-size: 20px;
+}
+
+.mission {
+  display: flex;
+  margin-left: 1rem;
+}
+.mission > p{
+  margin: 0 !important;
+  line-height: 1.2;
+}
+
+.projet-realiser{
+  margin-top: 1rem;
+}
+
+.projet-realiser > a {
+  color: #aba1a1;
+  text-decoration: underline;  
+}
+
+.detail-projet{
+  display: flex;
+}
+
+.detail-projet > p {
+  color: #868e95;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+
+.detail-projet > .fa-angle-right:before {
+  font-size: 1rem;
+    margin-right: 5px;
+    color:#868e95;
+}
+
+.viseo > .bg-primary {
+  background-color: #fff !important;
+  border-right: 1px solid #09294c;
+}
+
+@media screen and (max-width: 992px) {
+  .viseo > .bg-primary {
+    background-color: #09294c !important;
+    border-right: 1px solid #09294c;
+  }
+}
+
+.viseo  .rounded-circle{
+  border-radius: unset !important;
+}
+
+.viseo .img-profile {
+  max-width: 10em !important;
+  height: auto !important;
+  border: none !important;
+}
+
+.viseo #sideNav .navbar-nav .nav-item .nav-link{
+  color: #09294c !important;
+}
+
+@media screen and (max-width: 992px) {
+  .viseo #sideNav .navbar-nav .nav-item .nav-link{
+    color: #fff !important;
+    text-align: center;
+  }
+}
+.viseo .viseo-titre{
+  color: #09294c !important;
+  margin-bottom: 3rem !important;
+}
+.viseo .text-primary {
+  color: #3bd4ff !important;
+}
+
+.viseo .fa-caret-right {
+  color: #09294c !important;
+}
+
+/*  */
+
+.realise-delta{
+  margin-top: 20px;
+}
+
+.delta > .bg-primary {
+  background-color: #fff !important;
+  border-right: 1px solid #c51a16;
+}
+
+@media screen and (max-width: 992px) {
+  .delta > .bg-primary {
+    background-color: #c51a16 !important;
+    border-right: 1px solid #c51a16;
+  }
+}
+
+
+.delta  .rounded-circle{
+  border-radius: unset !important;
+}
+
+.delta .img-profile {
+  max-width: 10em !important;
+  height: 6rem !important;
+  border: none !important;
+}
+
+.delta #sideNav .navbar-nav .nav-item .nav-link{
+  color: #c51a16 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .delta #sideNav .navbar-nav .nav-item .nav-link{
+    color: #fff !important;
+    text-align: center;
+  }
+}
+.delta .viseo-titre{
+  color: #c51a16 !important;
+  margin-bottom: 3rem !important;
+}
+
+.delta .text-primary {
+  color: #7e8994 !important;
+}
+
+.delta .fa-caret-right {
+  color: #c51a16 !important;
+}
+
+.delta .resume-date {
+  color: #c51a16 !important;
+}
+
+.delta .desc-projet{
+  margin-top: 1rem;
+}
+
+
+.pyxicom > .bg-primary {
+  background-color: #fff !important;
+  border-right: 1px solid #617ebf;
+}
+
+@media screen and (max-width: 992px) {
+  .pyxicom > .bg-primary {
+    background-color: #617ebf !important;
+    border-right: 1px solid #617ebf;
+  }
+}
+
+
+.pyxicom  .rounded-circle{
+  border-radius: unset !important;
+}
+
+.pyxicom .img-profile {
+  max-width: 10em !important;
+  height: 12rem !important;
+  border: none !important;
+}
+
+.pyxicom #sideNav .navbar-nav .nav-item .nav-link{
+  color: #617ebf !important;
+}
+
+@media screen and (max-width: 992px) {
+  .pyxicom #sideNav .navbar-nav .nav-item .nav-link{
+    color: #fff !important;
+    text-align: center;
+  }
+}
+.pyxicom .viseo-titre{
+  color: #617ebf !important;
+  margin-bottom: 3rem !important;
+}
+
+.pyxicom.text-primary {
+  color: #7e8994 !important;
+}
+
+.pyxicom .fa-caret-right {
+  color: #fb7008 !important
+}
+
+.pyxicom .text-primary {
+  color: #fb7008 !important;
+}
+
+.pyxicom .resume-date {
+  color: #617ebf !important;
+}
+
+.pyxicom .desc-projet{
+  margin-top: 1rem;
+}
+
+
+
+
+
+
+
+.pyxicom  .rounded-circle{
+  border-radius: unset !important;
+}
+
+
+.ambition > .bg-primary {
+  background-color: #fff !important;
+  border-right: 1px solid #15a7ab;
+}
+
+@media screen and (max-width: 992px) {
+  .ambition > .bg-primary {
+    background-color: #15a7ab !important;
+    border-right: 1px solid #15a7ab;
+  }
+}
+
+
+.ambition .img-profile {
+  max-width: 10em !important;
+  height: 12rem !important;
+  border: none !important;
+}
+
+.ambition #sideNav .navbar-nav .nav-item .nav-link{
+  color: #15a7ab !important;
+}
+@media screen and (max-width: 992px) {
+  .ambition #sideNav .navbar-nav .nav-item .nav-link{
+    color: #fff !important;
+    text-align: center;
+  }
+}
+
+.ambition .viseo-titre{
+  color: #29384a !important;
+  margin-bottom: 3rem !important;
+}
+
+.ambition .text-primary {
+  color: #15a7ab !important;
+}
+
+.ambition .fa-caret-right {
+  color: #15a7ab !important
+}
+
+.ambition .text-primary {
+  color: #15a7ab !important;
+}
+
+.ambition .resume-date {
+  color: #15a7ab !important;
+}
+
+.ambition .desc-projet{
+  margin-top: 1rem;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
