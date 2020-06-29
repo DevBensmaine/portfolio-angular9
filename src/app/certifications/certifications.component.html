@@ -1,1 +1,11 @@
-<p>certifications works!</p>
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+  <div class="w-100">
+    <h2 class="mb-5">Mes Certifications</h2>
+    <ul class="fa-ul mb-0">
+      <li *ngFor="let certificat of certificats">
+        <i class="fa-li fa fa-trophy text-warning"></i>
+        {{certificat.certif }}
+      </li>
+    </ul>
+  </div>
+</section>

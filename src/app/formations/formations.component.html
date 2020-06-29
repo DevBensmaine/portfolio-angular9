@@ -1,1 +1,14 @@
-<p>formations works!</p>
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+  <div class="w-100">
+    <h2 class="mb-5">FORMATION</h2>
+    <div *ngFor="let formation of formations" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="resume-content">
+        <h3 class="mb-0">{{ formation.title }}</h3>
+        <div class="subheading mb-3">{{ formation.faculte }}</div>
+      </div>
+      <div class="resume-date text-md-right">
+        <span class="text-primary">{{ formation.date }}</span>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './layout/sidebar/sidebar.component';
@@ -30,6 +32,7 @@ import { CompetencesComponent } from './competences/competences.component'
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot([
       { path :'apropos',component:AproposComponent },
       { path :'experiences',component:ExperiencesComponent },

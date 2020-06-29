@@ -1,1 +1,32 @@
-<p>experiences works!</p>
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+  <div class="w-100">
+    <h2 class="mb-5">EXPÉRIENCES</h2>
+    <div *ngFor="let experience of experiences"
+      class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="resume-content">
+        <h3 class="mb-0"> {{experience.titleJob}}</h3>
+        <div class="subheading mb-3">{{experience.societe}}</div>
+        <div class="mission" *ngFor="let mission of experience.missions">
+          <i class="fas fa-caret-right"></i>
+          <p>
+            {{mission.title}}
+          </p>
+        </div>
+
+        <p *ngIf="experience.list_projet.length " class="projet-realiser">
+          Ex. <a href="https://www.rimowa.com/lu/en/home" target="_blank">www.rimowa.com </a>, <a
+            href="https://www.guerlain.com/" target="_blank">www.guerlain.com </a>,<a
+            href="https://www.lagrandeepicerie.com/fr/index" target="_blank">www.lagrandeepicerie.com</a>
+        </p>
+
+        <div class="detail-projet">
+          <i class="fas fa-angle-right"></i>
+          <p> Pour avoir plus de détails sur les projets réalisés <a href="./viseo.html">Clique ici</a></p>
+        </div>
+      </div>
+      <div class="resume-date text-md-right">
+        <span class="text-primary">{{ experience.date }}</span>
+      </div>
+    </div>
+  </div>
+</section>

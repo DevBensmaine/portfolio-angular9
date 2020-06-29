@@ -1,1 +1,21 @@
-<p>competences works!</p>
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+  <div class="w-100">
+    <h2 class="mb-5">COMPÉTENCES</h2>
+
+    <div class="subheading mb-3">LANGAGES &amp; OUTILS DE PROGRAMMATION</div>
+    <ul   class="list-inline dev-icons">
+      <li *ngFor = "let skill of skills" class="list-inline-item">
+        <i class="{{skill.icon}}"></i>
+      </li>
+
+    </ul>
+
+    <div class="subheading mb-3">Workflow</div>
+    <ul class="fa-ul mb-0">
+      <li *ngFor="let workflowItem of workflow">
+        <i class="fa-li fa fa-check"></i>
+        {{workflowItem.title}}
+      </li>
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,192 @@
+[
+  {
+    "apropos": {
+      "fname": "HASSAN",
+      "lname": "BENSMAINE",
+      "adresse": "19 A, RUE DE LUXEMBOURG L-7480 TUNTANGE",
+      "phone": "(317) 585-8468",
+      "email": "BENSMAINE.HASSAN@GMAIL.COM",
+      "description": "Je suis développeur full-stack , je peux accompagner une entreprise dans toutes les étapes d'un projet, jusqu'à la finalisation. Je maîtrise les technologies du web et les différents langages et frameworks, ce qui me permet de créer un programme, une application ou créer un site internet sans assistance. Je peut agir tant sur backend que sur le frontend.",
+      "socialList": {
+        "linkLn": "https://www.linkedin.com/in/hassan-bensmaine-95954a143/",
+        "gitHub": "",
+        "twitter": "",
+        "facebook": ""
+      }
+    },
+    "experiences": [
+      {
+        "id": 1,
+        "titleJob": "IT CONSULTANT SALESFORCE COMMERCE CLOUD ET DÉVELOPPEUR FRONT-END",
+        "societe": "GROUPE VISEO",
+        "date": "Janvier 2019 - Présent",
+        "missions": [
+          {
+            "title": "Analyse des besoins des clients et proposition des solutions adéquates pour répondre aux appels"
+          },
+          {
+            "title": "Estimation de charges pour les développements spécifiques"
+          },
+          {
+            "title": "Réalisation des démonstrations pour les Nouveaux clients en intégrant leur données dans la plateforme SalesForce"
+          },
+          {
+            "title": "Paramétrages standards et développements spécifiques selon les besoins des clients "
+          },
+          { "title": "Designe et Intégration des maquettes spécifiques" },
+          {
+            "title": "Interfaçage de la plateforme avec les applications des clients et avec leurs sites internet"
+          }
+        ],
+        "list_projet": [
+          { "title": "www.rimowa.com", "Link": "www.rimowa.com" },
+          { "title": "www.guerlain.com", "Link": "www.guerlain.com" },
+          {
+            "title": "www.lagrandeepicerie.com",
+            "Link": "www.lagrandeepicerie.com"
+          }
+        ],
+        "Detail": {
+          "presentation": {
+            "titreSociete": "VISEO MAROC",
+            "fdesc": "VISEO, Entreprise de Services du Numérique (ESN) spécialisée dans l’accompagnement de ses clients dans leur transformation digitale, annonce l’inauguration de ses nouveaux locaux à Casablanca.",
+            "ldesc": "VISEO Casablanca est un Global Center of Excellence (GCOE) qui accompagne les clients du Groupe VISEO dans les phases de “Build” et de “Run” de leurs SI stratégiques. Ces nouveaux locaux accueillent actuellement plus de 120 collaborateurs expérimentés dans les domaines de la supply chain, du digital commerce, des progiciels de gestion intégré (ERP) et du développement web."
+          },
+          "realisations": [
+            {
+              "projact": {
+                "title": "LA GRANDE ÉPICERIE DE PARIS",
+                "description": "C'EST SITE E-COMMERCE POUR VENDRE DES PRODUIT ALIMENTAIRE",
+                "missions": [
+                  {
+                    "title": "Paramétrage dans Le CRM salesforce commerce cloud"
+                  },
+                  {
+                    "title": "Développer des interfaces graphique suite á la demande de notre client"
+                  },
+                  {
+                    "title": "Proposer des solutions qui facilite l'accès aux données"
+                  },
+                  {
+                    "title": "Crée des api qui communique avec le backend de salesforce"
+                  },
+                  { "title": "travailler sur la performance de site" },
+                  {
+                    "title": "documenter chaque mise á jour ou évolution dans le code"
+                  },
+                  { "title": "le maintenance des agressions dans le code" },
+                  { "title": "Review de code dans bitbucket" }
+                ],
+                "technologie": "Les technologies utilisées : javascript , Jquery , sass , pug ,isml , webpack , html ,css , bootstrap , google analytics, git",
+                "listImg": [
+                  { "linkImg": "https://via.placeholder.com/350" },
+                  { "linkImg": "https://via.placeholder.com/350" },
+                  { "linkImg": "https://via.placeholder.com/350" },
+                  { "linkImg": "https://via.placeholder.com/350" },
+                  { "linkImg": "https://via.placeholder.com/350" },
+                  { "linkImg": "https://via.placeholder.com/350" }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": 2,
+        "titleJob": "DEVELOPPEUR FULL STACK",
+        "societe": "GROUPE DELTAHOLDING",
+        "date": "Novembre 2017- Décembre 2018",
+        "missions": [
+          {
+            "title": "Analyse des besoins des clients et proposition des solutions adéquates pour répondre aux appels"
+          },
+          {
+            "title": "Participation aux choix des technologies requises"
+          },
+          {
+            "title": "Développement de plusieurs modules d’applications web pour satisfaire les besoins spécifiques des clients"
+          },
+          {
+            "title": "Maintenance évolutive des applications et des sites"
+          },
+          {
+            "title": "Design et intégration des maquettes des sites crées Langages : PHP, CMS, symfony, AJAX, JQUERY, HTML, CSS, BOOTSRAP , Angular 6 , MySQL et SQL Server"
+          }
+        ],
+        "list_projet": []
+      },
+      {
+        "id": 3,
+        "titleJob": "DÉVELOPPEUR WEB JUNIOR",
+        "societe": "SOCIÉTE PYXICOM",
+        "date": "juillet 2017 - Décembre 2017",
+        "missions": [
+          {
+            "title": "Développement de plusieurs sites web avec JQUERY, HTML, CSS, SASS, BOOTSRAP Foundation et Wordpress"
+          }
+        ],
+        "list_projet": []
+      },
+      {
+        "id": 4,
+        "titleJob": "DÉVELOPPEUR WEB JUNIOR",
+        "societe": "SOCIÉTE E-AMBITION",
+        "date": "mai 2016 - Décembre 2016",
+        "missions": [
+          {
+            "title": "Conception et réalisation d’un site destiné aux patients pour la prise de rdv"
+          }
+        ],
+        "list_projet": []
+      }
+    ],
+    "formations": [
+      {
+        "title": "MASTER UNIVERSITAIRE PROFESSIONNEL - INGÉNIERIE DE CONCEPTION ET DE DÉVELOPPEMENT D’APPLICATIONS",
+        "date": "Septembre 2017 - Aout 2019",
+        "faculte": "FACULTÉ DE SCIENCE TECHNIQUE"
+      },
+      {
+        "title": "BACHELOR UNIVERSITAIRE PROFESSIONNEL - INGÉNIERIE DES APPLICATIONS MOBILES",
+        "date": "Septembre 2016 - juillet 2017",
+        "faculte": "FACULTÉ DE SCIENCE TECHNIQUE"
+      },
+      {
+        "title": "DUT – TECHNIQUES DE DÉVELOPPEMENT INFORMATIQUER",
+        "date": "octobre 2013 - Aout 2015",
+        "faculte": "INSTITUT SPÉCIALISÉ DE TECHNOLOGIE APPLIQUÉE"
+      }
+    ],
+    "skills": [
+      { "icon": "fab fa-html5" },
+      { "icon": "fab fa-css3-alt" },
+      { "icon": "fab fa-js-square" },
+      { "icon": "fab fa-angular" },
+      { "icon": "fab fa-node-js" },
+      { "icon": "fab fa-sass" },
+      { "icon": "fab fa-less" },
+      { "icon": "fab fa-wordpress" },
+      { "icon": "fab fa-gulp" },
+      { "icon": "fab fa-grunt" },
+      { "icon": "fab fa-npm" },
+      { "icon": "fab fa-php" }
+    ],
+
+    "workflow": [
+      { "title": "Mobile-First, Responsive Design" },
+      { "title": "Cross Browser Testing & Debugging" },
+      { "title": "Cross Functional Teams" },
+      { "title": "Agile Development & Scrum" }
+    ],
+    "interts": {
+      "description": "En plus d'être un développeur web, j'aime passer la plupart de mon temps à l'extérieur. En hiver j'aime faire du trip sur les montagnes Lorsque je suis à l'intérieur, je suis un certain nombre de films et d'émissions de télévision de science-fiction et de fantaisie, je suis un aspirant chef et je passe une grande partie de mon temps libre à explorer les dernières avancées technologiques dans le monde du développement Web."
+    },
+
+    "certification": [
+      {
+        "certif": "Microsoft certification html5 with javascript and css3 (70-480)"
+      }
+    ]
+  }
+]
